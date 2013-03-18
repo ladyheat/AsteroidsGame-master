@@ -1,0 +1,16 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\PowerUpGenerator.js">
+    <Files>
+      <File FileName="Assets\PlayerController.js" Line="39" Column="24" />
+      <File FileName="Assets\LaserController.js" Line="24" Column="38" />
+      <File FileName="Assets\PowerUpController.js" Line="5" Column="2" />
+      <File FileName="Assets\PowerUpGenerator.js" Line="14" Column="1" />
+      <File FileName="Assets\AsteroidGenerator.js" Line="6" Column="2" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
