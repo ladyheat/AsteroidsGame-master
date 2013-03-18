@@ -48,6 +48,7 @@
      <Compile Include="Assets\AsteroidGenerator.js" />
      <Compile Include="Assets\BorderController.js" />
      <Compile Include="Assets\LaserController.js" />
+     <Compile Include="Assets\MenuController.js" />
      <Compile Include="Assets\PlayerController.js" />
      <Compile Include="Assets\PowerUpController.js" />
      <Compile Include="Assets\PowerUpGenerator.js" />

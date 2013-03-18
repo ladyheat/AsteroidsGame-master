@@ -1,7 +1,7 @@
 #pragma strict
 var normalSpeed:int;
 var turboSpeed:int;
-var health:int=100;
+static var health:int=100;
 
 // gameover is declared as false
 var gameover:boolean=false;
@@ -34,6 +34,11 @@ function Start () {
 function Update () {
 	currentTime = Time.time;
 	//il-hin li ghadda nahdmuh hekk:
+	
+	if (Input.GetKey(KeyCode.Escape))
+	{
+		Application.LoadLevel(0);
+	}
 	
 	//kill the game after sixty seconds; '||' means 'or'
 	if ((elapsedTime<60)||(health>0))

@@ -30,4 +30,17 @@ function OnTriggerEnter(other:Collider)
 		//increment the score by 1
 		PlayerController.score++;
 	}
+	
+	if (other.gameObject.tag == "powerup")
+	{
+		//destroy laser
+		Destroy(this.gameObject);
+		//destroy asteriod
+		Destroy(other.gameObject);
+		//increment health if health is less than 100 
+		if (PlayerController.health < 100)
+		{
+		PlayerController.health++;
+		}
+	}
 }

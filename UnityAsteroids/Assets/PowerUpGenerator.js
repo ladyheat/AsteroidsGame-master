@@ -11,7 +11,7 @@ function Start () {
 function generatepowerup()
 {
 	//position of powerup. Rightmost,y=0, z=1, rotation0
-	Instantiate(powerup,Vector3(BorderController.rightmost,0,1));
+	Instantiate(powerup,Vector3(BorderController.rightmost,0,1),Quaternion.identity);
 }
 
 function Update () {
