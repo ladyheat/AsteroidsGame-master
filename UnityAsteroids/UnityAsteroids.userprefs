@@ -1,9 +1,9 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\PlayerController.js">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\LaserController.js">
     <Files>
-      <File FileName="Assets\PlayerController.js" Line="25" Column="3" />
-      <File FileName="Assets\LaserController.js" Line="1" Column="1" />
+      <File FileName="Assets\PlayerController.js" Line="32" Column="26" />
+      <File FileName="Assets\LaserController.js" Line="56" Column="24" />
       <File FileName="Assets\PowerUpController.js" Line="1" Column="1" />
       <File FileName="Assets\PowerUpGenerator.js" Line="1" Column="1" />
       <File FileName="Assets\AsteroidGenerator.js" Line="1" Column="1" />

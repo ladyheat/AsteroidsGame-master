@@ -3,6 +3,9 @@ var normalSpeed:int;
 var turboSpeed:int;
 static var health:int=100;
 
+//square brackets is to declare an array
+var colours:Material[];
+
 // gameover is declared as false
 var gameover:boolean=false;
 
@@ -22,13 +25,23 @@ function OnTriggerEnter(other:Collider)
 	{
 		//reduce 1% health
 		health--;
+		//turn the spaceship blue
+		renderer.sharedMaterial = colours[1];
 	}
 }
-
+function OnTriggerExit ()
+{
+	//back to green
+	renderer.sharedMaterial = colours[0];
+}
 
 function Start () {
 	//the time the player started playing
 	startTime=Time.time;
+	
+	// set the material to the first element in the colours array
+	renderer.sharedMaterial = colours[0];
+	//now the spaceship is green
 }
 
 function Update () {
